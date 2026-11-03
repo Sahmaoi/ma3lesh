@@ -2,7 +2,21 @@
 
 Jordanian excuses for the three questions everyone dodges: when will it be done, where are you, and why isn't it done. Each comes with what it really means.
 
-Answers come in three scripts: `en` (English, the default), `ar` (Ammani Arabic) and `arabizi`.
+```
+$ npx ma3lesh when
+After lunch
+(real ETA: Lunch is at 4, confidence 6%)
+
+$ npx ma3lesh where --lang arabizi
+3ali2 3dowwar elsabe3
+(really: tili3 min 3ashr da2aye2, confidence 11%)
+
+$ npx ma3lesh why
+The internet is out
+(real reason: Watching the match, confidence 3%)
+```
+
+Run `npx ma3lesh` with no topic in a terminal and it asks which one you need. Answers come in three scripts: `en` (English, the default), `ar` (Ammani Arabic) and `arabizi`.
 
 ```
 npm i ma3lesh
@@ -30,6 +44,14 @@ https://cdn.jsdelivr.net/npm/ma3lesh/excuses.json
 ```
 
 Each entry has `id`, `topic`, plus `says` and `means` in `en`, `ar` and `arabizi`. Pick one at random yourself.
+
+## CLI options
+
+```
+ma3lesh [when|where|why] [--lang en|ar|arabizi] [--json] [--ask]
+```
+
+`-l` is short for `--lang`, and `--lang=ar` also works. `--json` prints the same object `excuse()` returns. Without a topic, ma3lesh asks in a terminal and picks any topic when piped. `--ask` always asks, reading the answer from stdin, so scripts can answer it. `--version` and `--help` do what they say.
 
 ## Arabizi spelling
 

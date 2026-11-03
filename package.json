@@ -17,8 +17,12 @@
     "./excuses.json": "./excuses.json",
     "./package.json": "./package.json"
   },
+  "bin": {
+    "ma3lesh": "bin/ma3lesh.js"
+  },
   "files": [
     "src",
+    "bin",
     "excuses.json"
   ],
   "engines": {
@@ -30,7 +34,8 @@
     "excuses",
     "arabic",
     "arabizi",
-    "jordan"
+    "jordan",
+    "cli"
   ],
   "scripts": {
     "build:json": "node scripts/build-json.js",

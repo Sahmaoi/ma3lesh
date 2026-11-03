@@ -1,6 +1,6 @@
 # A package, not a service
 
-ma3lesh ships as an npm package with an `excuse()` function and a generated `excuses.json`. There's no server.
+ma3lesh ships as an npm package with an `excuse()` function, a CLI and a generated `excuses.json`. There's no server.
 
 ## Why
 
@@ -13,4 +13,5 @@ A joke should cost nothing to keep alive. A hosted endpoint needs uptime, rate l
 ## Where it lives
 
 - `src/index.js`: the library.
+- `bin/ma3lesh.js`: the CLI.
 - `scripts/build-json.js`: writes the JSON. See [excuses-json-sync.md](excuses-json-sync.md).
