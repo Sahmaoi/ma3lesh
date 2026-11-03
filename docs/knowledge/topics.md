@@ -1,0 +1,31 @@
+# Three topics: when, where, why
+
+Every excuse belongs to one topic:
+
+- **when:** "When will it be done?"
+- **where:** "Where are you?"
+- **why:** "Why isn't it done?" or "Why aren't you working?"
+
+`excuse({ topic })` picks only from that topic. Leaving the topic out picks from all three.
+
+## Why
+
+The first version answered only "when will it be done?". Proofreading turned up entries that answered other questions: "I'm on my way" and "Stuck at 7th Circle" are about where someone is, and "The system is down" is about why nothing is happening. The owner chose to group them instead of cutting them. Each topic has to hold at least eight excuses, so a topic doesn't repeat itself after two tries.
+
+## Decisions inside this
+
+- **`eta()` became `excuse()`, and `real_eta` became `means`.** "ETA" made no sense for where or why. Nothing had been published, so this was a rename, not a breaking change. `means` matches the field name in the data.
+- **Topic is checked the same way as `lang`:** a frozen list, case-insensitive, a length cap before anything else, and an escaped echo in the error.
+
+## Content limits for the new topics
+
+The legal review's content policy applies, and it matters most here:
+
+- **why:** the most natural Jordanian "why aren't you working" answers involve prayer or fasting, and those are off limits.
+- **where:** may name roads and circles (7th Circle, Airport Road), never a business, mall, ministry or telco.
+
+## Where it lives
+
+- `src/excuses.js`: the `topic` field, with entries grouped by topic.
+- `src/index.js`: `TOPICS`, `normalizeTopic()`, `excuse()`.
+- `test/library.test.js`: valid topics, a minimum of eight per topic, and per-topic picks.

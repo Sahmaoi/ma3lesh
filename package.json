@@ -1,0 +1,40 @@
+{
+  "name": "ma3lesh",
+  "version": "0.1.0",
+  "description": "Jordanian excuses for when it will be done, where you are, and why it isn't done, in English, Arabic or Arabizi.",
+  "author": "Ahmad Ghawanmeh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahmaoi/ma3lesh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sahmaoi/ma3lesh/issues"
+  },
+  "homepage": "https://github.com/Sahmaoi/ma3lesh#readme",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./excuses.json": "./excuses.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "excuses.json"
+  ],
+  "engines": {
+    "node": ">=20.19"
+  },
+  "license": "(MIT AND CC0-1.0)",
+  "keywords": [
+    "joke",
+    "excuses",
+    "arabic",
+    "arabizi",
+    "jordan"
+  ],
+  "scripts": {
+    "build:json": "node scripts/build-json.js",
+    "test": "node --test",
+    "prepublishOnly": "npm run build:json && npm test"
+  }
+}

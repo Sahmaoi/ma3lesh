@@ -1,0 +1,562 @@
+[
+  {
+    "id": "bukra",
+    "topic": "when",
+    "says": {
+      "en": "Tomorrow",
+      "ar": "بكرا",
+      "arabizi": "bukra"
+    },
+    "means": {
+      "en": "Not tomorrow",
+      "ar": "مش بكرا",
+      "arabizi": "mish bukra"
+    }
+  },
+  {
+    "id": "first-thing-tomorrow",
+    "topic": "when",
+    "says": {
+      "en": "First thing tomorrow morning",
+      "ar": "بكرا الصبح أول إشي",
+      "arabizi": "bukra elsub7 awwal ishi"
+    },
+    "means": {
+      "en": "Tomorrow afternoon, maybe",
+      "ar": "بكرا العصر، يمكن",
+      "arabizi": "bukra el3asr, yimkin"
+    }
+  },
+  {
+    "id": "right-now",
+    "topic": "when",
+    "says": {
+      "en": "Right now, right now",
+      "ar": "هلأ هلأ",
+      "arabizi": "halla2 halla2"
+    },
+    "means": {
+      "en": "Not now",
+      "ar": "مش هلأ",
+      "arabizi": "mish halla2"
+    }
+  },
+  {
+    "id": "five-minutes",
+    "topic": "when",
+    "says": {
+      "en": "Five minutes",
+      "ar": "خمس دقايق",
+      "arabizi": "5amas da2aye2"
+    },
+    "means": {
+      "en": "Forty minutes",
+      "ar": "أربعين دقيقة",
+      "arabizi": "arba3een da2ee2a"
+    }
+  },
+  {
+    "id": "almost-done",
+    "topic": "when",
+    "says": {
+      "en": "Almost done",
+      "ar": "خلصت تقريبًا",
+      "arabizi": "5allast ta2reeban"
+    },
+    "means": {
+      "en": "Hasn't started",
+      "ar": "لسا ما بلّش",
+      "arabizi": "lissa ma ballash"
+    }
+  },
+  {
+    "id": "one-small-thing",
+    "topic": "when",
+    "says": {
+      "en": "Just one small thing left",
+      "ar": "ضايل إشي صغير",
+      "arabizi": "dayel ishi zgheer"
+    },
+    "means": {
+      "en": "The whole thing is left",
+      "ar": "ضايل كل إشي",
+      "arabizi": "dayel kol ishi"
+    }
+  },
+  {
+    "id": "after-this-task",
+    "topic": "when",
+    "says": {
+      "en": "As soon as I finish what I'm on",
+      "ar": "بس أخلص اللي بإيدي",
+      "arabizi": "bas a5alles elli b2eedi"
+    },
+    "means": {
+      "en": "Never",
+      "ar": "أبدًا",
+      "arabizi": "abadan"
+    }
+  },
+  {
+    "id": "final-touches",
+    "topic": "when",
+    "says": {
+      "en": "Just the final touches",
+      "ar": "ضايل اللمسات الأخيرة",
+      "arabizi": "dayel ellamasat el2a5eera"
+    },
+    "means": {
+      "en": "The hard part hasn't started",
+      "ar": "لسا الصعب ما بلّش",
+      "arabizi": "lissa elsa3b ma ballash"
+    }
+  },
+  {
+    "id": "on-it",
+    "topic": "when",
+    "says": {
+      "en": "We're on it",
+      "ar": "شغالين عليها",
+      "arabizi": "shaghaleen 3aleiha"
+    },
+    "means": {
+      "en": "Someone opened a ticket",
+      "ar": "حدا فتح تيكت",
+      "arabizi": "7ada fata7 ticket"
+    }
+  },
+  {
+    "id": "leave-it-to-me",
+    "topic": "when",
+    "says": {
+      "en": "Leave it to me",
+      "ar": "خليها علي",
+      "arabizi": "5alliha 3alayy"
+    },
+    "means": {
+      "en": "You'll ask again next week",
+      "ar": "رح ترجع تسأل الأسبوع الجاي",
+      "arabizi": "ra7 terja3 tis2al elusboo3 eljay"
+    }
+  },
+  {
+    "id": "well-see",
+    "topic": "when",
+    "says": {
+      "en": "We'll see",
+      "ar": "بنشوف",
+      "arabizi": "bnshoof"
+    },
+    "means": {
+      "en": "No",
+      "ar": "لأ",
+      "arabizi": "la2"
+    }
+  },
+  {
+    "id": "inshallah",
+    "topic": "when",
+    "says": {
+      "en": "God willing",
+      "ar": "إن شاء الله",
+      "arabizi": "inshallah"
+    },
+    "means": {
+      "en": "Out of my hands now",
+      "ar": "خلص، مش بإيدي",
+      "arabizi": "5alas, mish b2eedi"
+    }
+  },
+  {
+    "id": "wait-a-bit",
+    "topic": "when",
+    "says": {
+      "en": "Wait a bit",
+      "ar": "استنى شوي",
+      "arabizi": "istanna shway"
+    },
+    "means": {
+      "en": "Wait a lot",
+      "ar": "استنى كتير",
+      "arabizi": "istanna kteer"
+    }
+  },
+  {
+    "id": "after-lunch",
+    "topic": "when",
+    "says": {
+      "en": "After lunch",
+      "ar": "بعد الغدا",
+      "arabizi": "ba3d elghada"
+    },
+    "means": {
+      "en": "Lunch is at 4",
+      "ar": "الغدا الساعة أربعة",
+      "arabizi": "elghada 3sa3a arba3a"
+    }
+  },
+  {
+    "id": "sunday",
+    "topic": "when",
+    "says": {
+      "en": "Sunday",
+      "ar": "يوم الأحد",
+      "arabizi": "yom ela7ad"
+    },
+    "means": {
+      "en": "Some Sunday",
+      "ar": "أي أحد",
+      "arabizi": "ayy a7ad"
+    }
+  },
+  {
+    "id": "after-eid",
+    "topic": "when",
+    "says": {
+      "en": "After Eid",
+      "ar": "بعد العيد",
+      "arabizi": "ba3d el3eid"
+    },
+    "means": {
+      "en": "Which Eid is unspecified",
+      "ar": "أي عيد؟ مش محدد",
+      "arabizi": "ayy 3eid? mish m7addad"
+    }
+  },
+  {
+    "id": "after-ramadan",
+    "topic": "when",
+    "says": {
+      "en": "After Ramadan",
+      "ar": "بعد رمضان",
+      "arabizi": "ba3d ramadan"
+    },
+    "means": {
+      "en": "Then it becomes after Eid",
+      "ar": "بعدها بتصير بعد العيد",
+      "arabizi": "ba3dha btseer ba3d el3eid"
+    }
+  },
+  {
+    "id": "first-of-the-month",
+    "topic": "when",
+    "says": {
+      "en": "First of the month",
+      "ar": "أول الشهر",
+      "arabizi": "awwal elshahr"
+    },
+    "means": {
+      "en": "When the salary lands",
+      "ar": "لما ينزل الراتب",
+      "arabizi": "lamma yinzal elrateb"
+    }
+  },
+  {
+    "id": "when-they-reply",
+    "topic": "when",
+    "says": {
+      "en": "When they get back to me",
+      "ar": "لما يرد علي",
+      "arabizi": "lamma yrudd 3alayy"
+    },
+    "means": {
+      "en": "They won't",
+      "ar": "مش رح يرد",
+      "arabizi": "mish ra7 yrudd"
+    }
+  },
+  {
+    "id": "when-the-manager-comes",
+    "topic": "when",
+    "says": {
+      "en": "When the manager gets in",
+      "ar": "لما يجي المدير",
+      "arabizi": "lamma yiji elmudeer"
+    },
+    "means": {
+      "en": "The manager is on leave",
+      "ar": "المدير بإجازة",
+      "arabizi": "elmudeer bijazeh"
+    }
+  },
+  {
+    "id": "on-my-way",
+    "topic": "where",
+    "says": {
+      "en": "I'm on my way",
+      "ar": "أنا بالطريق",
+      "arabizi": "ana bel taree2"
+    },
+    "means": {
+      "en": "Hasn't left the house",
+      "ar": "لسا ما طلع من البيت",
+      "arabizi": "lissa ma tili3 min elbeit"
+    }
+  },
+  {
+    "id": "seventh-circle",
+    "topic": "where",
+    "says": {
+      "en": "Stuck at 7th Circle",
+      "ar": "عالق عالدوار السابع",
+      "arabizi": "3ali2 3dowwar elsabe3"
+    },
+    "means": {
+      "en": "Left ten minutes ago",
+      "ar": "طلع من عشر دقايق",
+      "arabizi": "tili3 min 3ashr da2aye2"
+    }
+  },
+  {
+    "id": "almost-there",
+    "topic": "where",
+    "says": {
+      "en": "Almost there",
+      "ar": "وصلت تقريبًا",
+      "arabizi": "wsilt ta2reeban"
+    },
+    "means": {
+      "en": "Just left",
+      "ar": "هلأ طلعت",
+      "arabizi": "halla2 tli3t"
+    }
+  },
+  {
+    "id": "downstairs",
+    "topic": "where",
+    "says": {
+      "en": "I'm downstairs",
+      "ar": "أنا تحت",
+      "arabizi": "ana ta7t"
+    },
+    "means": {
+      "en": "Still getting dressed",
+      "ar": "لسا بلبس",
+      "arabizi": "lissa balbas"
+    }
+  },
+  {
+    "id": "looking-for-parking",
+    "topic": "where",
+    "says": {
+      "en": "Looking for parking",
+      "ar": "بدوّر على صفّة",
+      "arabizi": "bdawwer 3ala saffeh"
+    },
+    "means": {
+      "en": "Still at home",
+      "ar": "لسا بالبيت",
+      "arabizi": "lissa bel beit"
+    }
+  },
+  {
+    "id": "at-the-light",
+    "topic": "where",
+    "says": {
+      "en": "At the traffic light",
+      "ar": "عالإشارة",
+      "arabizi": "3al2ishara"
+    },
+    "means": {
+      "en": "Still looking for the car keys",
+      "ar": "لسا بدوّر على مفاتيح السيارة",
+      "arabizi": "lissa bdawwer 3ala mafateeh elsayyara"
+    }
+  },
+  {
+    "id": "no-signal",
+    "topic": "where",
+    "says": {
+      "en": "No signal, can't send my location",
+      "ar": "ما في تغطية، ما بقدر أبعت اللوكيشن",
+      "arabizi": "ma fi taghtiyeh, ma ba2dar ab3at ellocation"
+    },
+    "means": {
+      "en": "Doesn't want you to know",
+      "ar": "مش حابب تعرف",
+      "arabizi": "mish 7abeb ta3ref"
+    }
+  },
+  {
+    "id": "airport-road",
+    "topic": "where",
+    "says": {
+      "en": "Stuck on Airport Road",
+      "ar": "عالق على طريق المطار",
+      "arabizi": "3ali2 3ala taree2 elmatar"
+    },
+    "means": {
+      "en": "Never got in the car",
+      "ar": "لسا ما ركب السيارة",
+      "arabizi": "lissa ma rikib elsayyara"
+    }
+  },
+  {
+    "id": "its-simple",
+    "topic": "why",
+    "says": {
+      "en": "It's simple",
+      "ar": "الموضوع بسيط",
+      "arabizi": "elmawdoo3 baseet"
+    },
+    "means": {
+      "en": "It is not simple",
+      "ar": "الموضوع مش بسيط",
+      "arabizi": "elmawdoo3 mish baseet"
+    }
+  },
+  {
+    "id": "dont-worry",
+    "topic": "why",
+    "says": {
+      "en": "Don't you worry",
+      "ar": "ولا يهمك",
+      "arabizi": "wala yhimmak"
+    },
+    "means": {
+      "en": "You should worry",
+      "ar": "لازم يهمك",
+      "arabizi": "lazem yhimmak"
+    }
+  },
+  {
+    "id": "malesh",
+    "topic": "why",
+    "says": {
+      "en": "Never mind",
+      "ar": "معلش",
+      "arabizi": "ma3lesh"
+    },
+    "means": {
+      "en": "It slipped and we're moving on",
+      "ar": "راحت علينا وبنكمّل",
+      "arabizi": "ra7at 3aleina w bnkammil"
+    }
+  },
+  {
+    "id": "the-guy-who-knows",
+    "topic": "why",
+    "says": {
+      "en": "The one guy who knows is traveling",
+      "ar": "اللي بيعرف مسافر",
+      "arabizi": "illi bya3ref msafer"
+    },
+    "means": {
+      "en": "Nobody knows",
+      "ar": "ولا حدا بيعرف",
+      "arabizi": "wala 7ada bya3ref"
+    }
+  },
+  {
+    "id": "system-down",
+    "topic": "why",
+    "says": {
+      "en": "The system is down",
+      "ar": "السيستم واقع",
+      "arabizi": "elsystem wa2e3"
+    },
+    "means": {
+      "en": "It's always down",
+      "ar": "دايمًا واقع",
+      "arabizi": "dayman wa2e3"
+    }
+  },
+  {
+    "id": "internet-out",
+    "topic": "why",
+    "says": {
+      "en": "The internet is out",
+      "ar": "النت فاصل",
+      "arabizi": "elnet fasel"
+    },
+    "means": {
+      "en": "Watching the match",
+      "ar": "قاعد بحضر الماتش",
+      "arabizi": "2a3ed ba7dar elmatch"
+    }
+  },
+  {
+    "id": "power-out",
+    "topic": "why",
+    "says": {
+      "en": "The power is out",
+      "ar": "الكهربا قاطعة",
+      "arabizi": "elkahraba 2at3a"
+    },
+    "means": {
+      "en": "Laptop at 3%",
+      "ar": "اللابتوب على 3%",
+      "arabizi": "ellaptop 3ala 3%"
+    }
+  },
+  {
+    "id": "snow",
+    "topic": "why",
+    "says": {
+      "en": "It's going to snow",
+      "ar": "بدها تثلج",
+      "arabizi": "badha tthallij"
+    },
+    "means": {
+      "en": "Amman closes for three days on a forecast",
+      "ar": "عمّان بتسكّر تلات أيام عشان النشرة الجوية",
+      "arabizi": "3amman btsakker tlat iyyam 3ashan elnashra eljawwiyye"
+    }
+  },
+  {
+    "id": "waiting-for-approval",
+    "topic": "why",
+    "says": {
+      "en": "Waiting for approval",
+      "ar": "مستني الموافقة",
+      "arabizi": "mestanni elmuwafa2a"
+    },
+    "means": {
+      "en": "Never asked for it",
+      "ar": "ما طلبها أصلًا",
+      "arabizi": "ma talabha asalan"
+    }
+  },
+  {
+    "id": "never-got-the-email",
+    "topic": "why",
+    "says": {
+      "en": "Never got the email",
+      "ar": "ما وصلني الإيميل",
+      "arabizi": "ma wasalni elemail"
+    },
+    "means": {
+      "en": "Got it, never opened it",
+      "ar": "وصلني بس ما فتحته",
+      "arabizi": "wasalni bas ma fata7to"
+    }
+  },
+  {
+    "id": "in-a-meeting",
+    "topic": "why",
+    "says": {
+      "en": "I was in a meeting",
+      "ar": "كنت باجتماع",
+      "arabizi": "kunt bijtima3"
+    },
+    "means": {
+      "en": "Breakfast ran long",
+      "ar": "الفطور طوّل",
+      "arabizi": "elftoor tawwal"
+    }
+  },
+  {
+    "id": "laptop-updating",
+    "topic": "why",
+    "says": {
+      "en": "My laptop is updating",
+      "ar": "اللابتوب بعمل أبديت",
+      "arabizi": "ellaptop bi3mal update"
+    },
+    "means": {
+      "en": "Scrolling videos",
+      "ar": "قاعد بقلّب فيديوهات",
+      "arabizi": "2a3ed ba2alleb fideyohat"
+    }
+  }
+]
