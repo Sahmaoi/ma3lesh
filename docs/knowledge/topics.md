@@ -23,7 +23,7 @@ The CLI takes the topic as a bare word (`ma3lesh where`). With no topic in a ter
 
 ## Content limits for the new topics
 
-The legal review's content policy applies, and it matters most here:
+The [content policy](content-policy.md) applies, and it matters most here:
 
 - **why:** the most natural Jordanian "why aren't you working" answers involve prayer or fasting, and those are off limits.
 - **where:** may name roads and circles (7th Circle, Airport Road), never a business, mall, ministry or telco.

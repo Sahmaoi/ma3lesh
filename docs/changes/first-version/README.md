@@ -28,8 +28,6 @@ graph LR
   ZD[zero-dependencies]
 ```
 
-Only no-hosting and excuses-json-sync link to each other. The other notes stand alone.
-
 - [no-hosting.md](../../knowledge/no-hosting.md): why it's a package and not a service.
 - [excuses-json-sync.md](../../knowledge/excuses-json-sync.md): why the JSON is generated, committed and tested.
 - [arabizi-spelling.md](../../knowledge/arabizi-spelling.md): the one Arabizi convention, including the owner's article rules.
@@ -39,4 +37,5 @@ Only no-hosting and excuses-json-sync link to each other. The other notes stand 
 
 ## Pushes
 
-1. 2026-11-03: "Add the excuse data and the excuse library", "Add the ma3lesh CLI" and this hub. A force-push replaced an earlier draft history on the private repo. Nothing had been released to npm, and the repo was not public.
+1. 2026-11-03: "Add the excuse data and the excuse library", "Add the ma3lesh CLI" and this hub.
+2. 2026-11-03: "Tighten the public wording before launch". Changed topics.md.

@@ -24,8 +24,6 @@ graph LR
   RL[releases]
 ```
 
-Only ci links to another note, zero-dependencies. The other two stand alone.
-
 - [ci.md](../../knowledge/ci.md): what CI runs and why.
 - [content-policy.md](../../knowledge/content-policy.md): what never gets merged, and why it's written down.
 - [releases.md](../../knowledge/releases.md): trusted publishing, the manual first publish, and semver.
@@ -33,3 +31,4 @@ Only ci links to another note, zero-dependencies. The other two stand alone.
 ## Pushes
 
 1. 2026-11-03: "Run the tests in CI on every push and pull request", "Add the contributor guide, content policy and issue forms", "Publish to npm from GitHub releases" and this hub.
+2. 2026-11-03: "Tighten the public wording before launch". Changed content-policy.md.

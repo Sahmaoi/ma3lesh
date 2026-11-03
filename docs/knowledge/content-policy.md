@@ -10,14 +10,14 @@
 
 ## Why
 
-The maintainer publishes from Jordan, and whoever publishes is legally responsible for everything merged. Jordan's Penal Code and its 2023 Cybercrime Law both cover insulting religion. The Cybercrime Law also covers false news and damaging someone's reputation, and it is actively enforced. The risk was never the first excuses but the two-hundredth pull request, so the rule is written down and every PR gets reviewed by a person. Nothing is auto-merged.
+The maintainer publishes from Jordan and is responsible for everything merged. The risk was never the first excuses but the two-hundredth pull request, so the rule is written down, every pull request is read by a person, and nothing is auto-merged.
 
 ## Where the line sits
 
 - **Allowed:** "inshallah", "after Eid" and "after Ramadan", because each joke is about the speaker's scheduling, not the faith.
 - **Not allowed:** the obvious "why aren't you working" answers about prayer or fasting.
 - **Allowed:** roads and places such as 7th Circle and Airport Road.
-- **Not allowed:** businesses, malls, telcos or ministries, however deserved.
+- **Not allowed:** businesses, malls, telcos or ministries.
 - **Removed:** "Scrolling reels" became "Scrolling videos", because Reels is a brand.
 
 ## Where it lives
