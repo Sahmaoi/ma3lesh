@@ -75,6 +75,8 @@ The article is `el`, joined to its word with no hyphen and no sun-letter doublin
 
 Add an entry to `src/excuses.js` under its topic, with `says` and `means` in all three languages, run `npm run build:json`, then `npm test`. The tests reject an unknown topic, an empty field, a duplicate id, Latin letters in `ar`, anything outside the Arabizi characters in `arabizi`, and an `excuses.json` that is out of date.
 
+The content rules, the sign-off and how review works are in [CONTRIBUTING.md](CONTRIBUTING.md). Suggestions without code are welcome as a "New excuse" issue.
+
 ## License
 
 Code is MIT, see [LICENSE](LICENSE). The excuse texts in `src/excuses.js` and `excuses.json` are released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), so you can reuse them anywhere without credit.

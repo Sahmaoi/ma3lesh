@@ -1,0 +1,18 @@
+name: Bug
+description: Something in the package or the CLI doesn't work.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The command or code you ran, what you expected, and what you got.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Output of `npx ma3lesh --version` and `node --version`, and your OS.
+    validations:
+      required: true

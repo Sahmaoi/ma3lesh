@@ -1,0 +1,37 @@
+name: New excuse
+description: Suggest an excuse without touching code.
+title: "New excuse: "
+labels: [excuse]
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - "when: when will it be done"
+        - "where: where are you"
+        - "why: why isn't it done"
+    validations:
+      required: true
+  - type: input
+    id: says
+    attributes:
+      label: What it says
+      description: In Arabic, Arabizi or English, whichever you have. A native speaker fills in the rest.
+      placeholder: "خمس دقايق / 5amas da2aye2 / Five minutes"
+    validations:
+      required: true
+  - type: input
+    id: means
+    attributes:
+      label: What it really means
+      placeholder: "أربعين دقيقة / arba3een da2ee2a / Forty minutes"
+    validations:
+      required: true
+  - type: checkboxes
+    id: policy
+    attributes:
+      label: Content rules
+      options:
+        - label: It follows the rules in CONTRIBUTING.md (no religion jokes, no royals, army or security services, no politics, sects or ethnicity, no named people or brands, nothing sexual or insulting).
+          required: true

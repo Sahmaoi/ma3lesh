@@ -38,6 +38,10 @@ test("ar is Arabic script, en and arabizi are ASCII", () => {
       assert.match(ar, /^[\p{Script_Extensions=Arabic}\p{Script=Common}]+$/u, `${e.id}.${side}.ar has non-Arabic letters`);
       assert.match(ar, /\p{Script=Arabic}/u, `${e.id}.${side}.ar has no Arabic`);
       assert.doesNotMatch(ar, /[A-Za-z]/, `${e.id}.${side}.ar has Latin letters`);
+      // Hidden format characters (bidi overrides, zero-width spaces) can sneak in through copy and paste.
+      for (const [lang, text] of Object.entries(e[side])) {
+        assert.doesNotMatch(text, /\p{Cf}/u, `${e.id}.${side}.${lang} has a hidden format character`);
+      }
       assert.match(en, /^[\x20-\x7E]+$/, `${e.id}.${side}.en is not ASCII`);
       assert.match(arabizi, /^[A-Za-z0-9 '\-.,?!%]+$/, `${e.id}.${side}.arabizi has unexpected characters`);
     }
