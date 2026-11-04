@@ -32,3 +32,4 @@ graph LR
 
 1. 2026-11-03: "Run the tests in CI on every push and pull request", "Add the contributor guide, content policy and issue forms", "Publish to npm from GitHub releases" and this hub.
 2. 2026-11-03: "Tighten the public wording before launch". Changed content-policy.md.
+3. 2026-11-04: "Set the version to 1.0.0". No notes changed.
